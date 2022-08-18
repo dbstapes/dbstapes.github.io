@@ -124,11 +124,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\MainPage.cshtml" />
-    <Content Include="Views\Docs\Index.cshtml" />
-    <Content Include="Views\Docs\AboutMe.cshtml" />
-    <Content Include="Views\Docs\Resume.cshtml" />
-    <Content Include="Views\Docs\Contact.cshtml" />
-    <Content Include="Views\Docs\Work.cshtml" />
+    <Content Include="Views\docs\Index.cshtml" />
+    <Content Include="Views\docs\AboutMe.cshtml" />
+    <Content Include="Views\docs\Resume.cshtml" />
+    <Content Include="Views\docs\Contact.cshtml" />
+    <Content Include="Views\docs\Work.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
