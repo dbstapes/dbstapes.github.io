@@ -111,7 +111,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\MainController.cs" />
+    <Compile Include="Controllers\DocsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -124,11 +124,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\MainPage.cshtml" />
-    <Content Include="Views\Main\Index.cshtml" />
-    <Content Include="Views\Main\AboutMe.cshtml" />
-    <Content Include="Views\Main\Resume.cshtml" />
-    <Content Include="Views\Main\Contact.cshtml" />
-    <Content Include="Views\Main\Work.cshtml" />
+    <Content Include="Views\Docs\Index.cshtml" />
+    <Content Include="Views\Docs\AboutMe.cshtml" />
+    <Content Include="Views\Docs\Resume.cshtml" />
+    <Content Include="Views\Docs\Contact.cshtml" />
+    <Content Include="Views\Docs\Work.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace ResumeWebsite.Controllers
 {
-    public class MainController : Controller
+    public class DocsController : Controller
     {
         // GET: Main
         public ActionResult Index()
