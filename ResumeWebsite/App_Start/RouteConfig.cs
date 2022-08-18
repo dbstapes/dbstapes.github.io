@@ -16,22 +16,22 @@ namespace ResumeWebsite
             routes.MapRoute(
                 name: "Index",
                 url: "{controller}/{action}",
-                defaults: new { controller = "Main", action = "Index" }
+                defaults: new { controller = "Docs", action = "Index" }
             );
             routes.MapRoute(
                 name: "AboutMe",
                 url: "{controller}/{action}",
-                defaults: new { controller = "Main", action = "AboutM" }
+                defaults: new { controller = "Docs", action = "AboutMe" }
             );
             routes.MapRoute(
                 name: "Resume",
                 url: "{controller}/{action}",
-                defaults: new { controller = "Main", action = "Home"}
+                defaults: new { controller = "Docs", action = "Home"}
             );
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}",
-                defaults: new { controller = "Main", action = "Index" }
+                defaults: new { controller = "Docs", action = "Index" }
             );
         }
     }
