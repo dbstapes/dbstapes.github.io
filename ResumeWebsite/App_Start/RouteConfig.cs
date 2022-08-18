@@ -14,9 +14,24 @@ namespace ResumeWebsite
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "Index",
+                url: "{controller}/{action}",
+                defaults: new { controller = "Main", action = "Index" }
+            );
+            routes.MapRoute(
+                name: "AboutMe",
+                url: "{controller}/{action}",
+                defaults: new { controller = "Main", action = "AboutM" }
+            );
+            routes.MapRoute(
+                name: "Resume",
+                url: "{controller}/{action}",
+                defaults: new { controller = "Main", action = "Home"}
+            );
+            routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                url: "{controller}/{action}",
+                defaults: new { controller = "Main", action = "Index" }
             );
         }
     }
