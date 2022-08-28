@@ -95,21 +95,22 @@ p {
 }
 footer {
     width: 100%;
+    
     padding-bottom: 7px;
     position: absolute;
-    bottom: 0;
+    bottom: auto;
 }
 .img-me {
-    width: 500px;
-    border-radius: 7px;
-    padding: 5px;
+    max-width : 60%;
+    border-radius: 1%;
+    padding: 1%;
     background-color: #233554;
 }
 
 .about-me {
     
-    padding-bottom: 10px;
-    font-size: 18px;
+    padding-bottom: 5%;
+    font-size: 100%;
     padding-left: 5%;
     padding-right: 20%;
 }
@@ -125,6 +126,6 @@ footer {
     grid-row: 1/3;
     display: grid;
     grid-template-columns: repeat(2, minmax(550px, 0px));
-    font-size: 25px;
+    font-size: 100%;
     gap: 0px 25px;
 }
