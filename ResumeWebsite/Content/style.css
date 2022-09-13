@@ -98,7 +98,7 @@ footer {
     
     padding-bottom: 7px;
     position: absolute;
-    bottom: auto;
+    bottom: 0;
 }
 .img-me {
     max-width : 60%;
