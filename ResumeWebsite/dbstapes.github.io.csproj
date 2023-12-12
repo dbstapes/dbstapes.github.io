@@ -119,6 +119,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="Content\Child-Cybersickness.pdf" />
     <Content Include="Content\Devin Stapleton resume.pdf" />
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
